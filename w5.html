@@ -34,47 +34,44 @@
     </div>
 
 
-    /* начинаем контент */
+    <! начинаем контент >
 
     <div class="content" style="height: 300px;">
 
-        /* основная информация */
+        <! основная информация >
         <div class="bio" style="height:200px; flex-basis: 220px;align-items: flex-start; ">
             <div class="avatar_block">
                 <img class="avatar_image" src="https://scontent-hel3-1.cdninstagram.com/v/t51.2885-19/s150x150/107307747_638518530094718_1072253033048478629_n.jpg?_nc_ht=scontent-hel3-1.cdninstagram.com&_nc_ohc=dF8T4eU15oIAX_Kj0NG&tp=1&oh=5eafc4692c23a665da5c7b556163f800&oe=6029509F" alt="">
 
             </div>
+
+            <div class="display: flex; flex-direction: column">
+                    <div class="bio_info">
+                    <div style="font-size: 2em;">neytllas</div>
+                    <div class="follow" style="text-align: center; color: white; font-size: 1.5em;">Подписаться</div>
+                    <div><i class="fas fa-2x fa-ellipsis-h"></i></div>
+                </div>  
+
+                <div class="bio_info">
+                    <div><b>135</b> публикаций</div>
+                    <div><b>936</b> подписчиков</div>
+                    <div><b>397</b> подписок</div>
+                </div>  
+
+                <div class="bio_info">
+                    <div>
+                        <b>Восходит темная луна</b><br>
+                        ничего личного все куплено и продано
+                    </div>
+                </div> 
+            </div>
+            
+
         </div>
 
-        <div class="bio" style="height:200px; flex-basis: 220px;align-items: flex-end;" >
-            <div class="bio_info">
-                <div style="font-size: 2em;">neytllas</div>
-                <div class="follow" style="text-align: center; color: white; font-size: 1.5em;">Подписаться</div>
-                <div><i class="fas fa-2x fa-ellipsis-h"></i></div>
-            </div>  
-        </div>
-
-        <div class="bio" style="height:200px; flex-basis: 220px;align-items: flex-end;" >
-            <div class="bio_info">
-                <div><b>135</b> публикаций</div>
-                <div><b>936</b> подписчиков</div>
-                <div><b>397</b> подписок</div>
-            </div>  
-        </div>
-
-        <div class="bio" style="height:200px; flex-basis: 220px;align-items: flex-end;" >
-            <div class="bio_info">
-                <div>
-                    <b>Восходит темная луна</b><br>
-                    ничего личного все куплено и продано
-                </div>
-            </div>  
-        </div>
 
 
-
-
-        /* актуальные */
+        <! актуальные >
         <div class="bio" style="">
 
         </div>
@@ -121,7 +118,6 @@
         display: flex;
         flex-direction: column;
         margin: 0.5em;
-        padding: 0.5em;
         flex-grow: 1;   
     }
 
@@ -130,7 +126,6 @@
         justify-content: space-evenly;
         align-items: center;
         display: flex;
-        flex-direction: column;
         flex-basis: 200px;
         margin: 0.5em;
         padding: 0.5em;
